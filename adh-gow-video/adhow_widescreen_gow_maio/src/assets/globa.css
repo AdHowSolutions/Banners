@@ -1,0 +1,16 @@
+/* LOW */
+#adh-b-bg{position:absolute;left:0px;bottom:0px;width:730px;height:50px;z-index:1}
+#adh-b-t1{position:absolute;left:75px;bottom:13px;width:647px;height:27px;z-index:2}
+#adh-b-controle{position:absolute;left:1px;bottom:0px;width:119px;height:76px;z-index:3}
+
+/* TOP */
+#adh-t-BG{position:absolute;left:0px;bottom:0px;width:1000px;height:600px;z-index:1}
+#adh-t-m2{position:absolute;left:0px;bottom:27px;width:285px;height:443px;z-index:2}
+#adh-t-m1{position:absolute;left:52px;bottom:26px;width:244px;height:372px;z-index:3}
+#adh-t-logo{position:absolute;left:324px;bottom:284px;width:345px;height:91px;z-index:4}
+#adh-t-cta{position:absolute;left:712px;bottom:302px;width:241px;height:47px;z-index:5}
+#adh-t-t-tag{position:absolute;left:0px;bottom:497px;width:684px;height:103px;z-index:6}
+#adh-t-b-tag{position:absolute;left:398px;bottom:0px;width:602px;height:142px;z-index:7}
+#adh-t-t-logo{position:absolute;left:6px;bottom:566px;width:141px;height:25px;z-index:8}
+#adh-t-video-mask{position:absolute;left:0;bottom:0px;width:1000px;height:600px;z-index:9;overflow: hidden;}
+.adh-t-video{position:absolute;left:50%;bottom:50%;width:107%;height:200%;transform: translate(-50%, 50%) ;z-index:999}

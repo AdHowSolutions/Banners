@@ -1,0 +1,9 @@
+.adh-b{
+  width: 730px;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
