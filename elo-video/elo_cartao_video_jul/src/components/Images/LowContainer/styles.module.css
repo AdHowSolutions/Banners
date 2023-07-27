@@ -1,0 +1,19 @@
+.adh-b{
+  width: 730px;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.adh-expand-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: #d4603c;
+  z-index: 9999;
+}

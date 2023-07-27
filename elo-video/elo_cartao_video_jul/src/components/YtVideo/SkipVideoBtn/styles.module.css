@@ -1,0 +1,17 @@
+#adh-v-skip-btn{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  padding: .5rem 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}

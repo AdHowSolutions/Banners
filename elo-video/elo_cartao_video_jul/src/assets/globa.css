@@ -1,0 +1,28 @@
+/* LOW */
+#adh-b-bg{position:absolute;left:0px;bottom:0px;width:730px;height:54px;z-index:1}
+#adh-b-cta{position:absolute;left:183px;bottom:10px;width:440px;height:34px;z-index:2}
+#adh-b-e1{position:absolute;left:696px;bottom:0px;width:34px;height:70px;z-index:3}
+#adh-b-h1{position:absolute;left:9px;bottom:0px;width:133px;height:70px;z-index:4}
+
+/* TOP */
+#adh-t-bg1{position:absolute;left:0px;bottom:0px;width:1000px;height:600px;z-index:1}
+#adh-t-bg2{position:absolute;left:638px;bottom:0px;width:362px;height:600px;z-index:2}
+#adh-t-h1{position:absolute;left:0px;bottom:0px;width:353px;height:600px;z-index:3}
+#adh-t-t7{position:absolute;left:190px;bottom:185px;width:174px;height:35px;z-index:4}
+#adh-t-t6{position:absolute;left:189px;bottom:239px;width:191px;height:44px;z-index:5}
+#adh-t-t5{position:absolute;left:189px;bottom:300px;width:218px;height:35px;z-index:6}
+#adh-t-e2{position:absolute;left:259px;bottom:0px;width:202px;height:80px;z-index:7}
+#adh-t-e1{position:absolute;left:0px;bottom:543px;width:93px;height:57px;z-index:8}
+#adh-t-logo-e3{position:absolute;left:751px;bottom:24px;width:28px;height:56px;z-index:9}
+#adh-t-logo-e2{position:absolute;left:708px;bottom:24px;width:29px;height:56px;z-index:10}
+#adh-t-logo-e1{position:absolute;left:666px;bottom:24px;width:28px;height:56px;z-index:11}
+#adh-t-m1{position:absolute;left:450px;bottom:121px;width:327px;height:453px;z-index:12}
+#adh-t-logo{position:absolute;left:810px;bottom:24px;width:154px;height:59px;z-index:13}
+#adh-t-t4{position:absolute;left:463px;bottom:160px;width:120px;height:23px;z-index:14}
+#adh-t-t3{position:absolute;left:465px;bottom:190px;width:217px;height:17px;z-index:15}
+#adh-t-t2{position:absolute;left:464px;bottom:214px;width:295px;height:29px;z-index:16}
+#adh-t-t1{position:absolute;left:465px;bottom:244px;width:252px;height:28px;z-index:17}
+#adh-t-cta{position:absolute;left:813px;bottom:280px;width:153px;height:29px;z-index:18}
+#adh-t-cta2{position:absolute;left:885px;bottom:324px;width:81px;height:28px;z-index:19}
+#adh-t-video-mask{position:absolute;left:0;bottom:0px;width:1000px;height:600px;z-index:9;overflow: hidden;}
+.adh-t-video{position:absolute;left:50%;bottom:50%;width:107%;height:200%;transform: translate(-50%, 50%) ;z-index:999}
