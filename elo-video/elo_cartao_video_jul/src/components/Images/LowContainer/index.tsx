@@ -18,14 +18,14 @@ export function LowContainer({lowImagesIds, isDev, sas_creativeClickUrl, sas_cre
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
       expandBannerTl
-        .to("#adh-expand-progress", {width: 730, onComplete: () => {
+        .to("#adh-b-h1", {x: 620, onComplete: () => {
           parent.postMessage(JSON.stringify({
             type: 'adh-action',
             action: 'expandBanner',
             format: 'wide'
           }), '*')
           top.play(0)
-          gsap.to("#adh-expand-progress", {duration: 1, width: 0})
+          gsap.to("#adh-b-h1", {duration: 1, x: 0})
           gsap.to("#adh-overlay, #adh-collapse-btn", {opacity: 1, pointerEvents: 'all'})
           gsap.fromTo(
             "#adh-t", 
