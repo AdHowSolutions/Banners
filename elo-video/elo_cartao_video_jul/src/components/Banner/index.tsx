@@ -8,6 +8,8 @@ import { YtVideo } from '../YtVideo';
 
 export function Banner() {
 
+  const isLocalHost = window.location.hostname.includes('localhost') || window.location.hostname.includes('adhowsolutions') || window.location.hostname.includes('127.0.0.1')
+
   const lowImages = ['bg','cta','e1','h1']
   const topImages = ['bg1','bg2','h1','t7','t6','t5','e2','e1','logo-e3','logo-e2','logo-e1','m1','logo','t4','t3','t2','t1','cta','cta2']
   const bannerRef = useRef<HTMLDivElement>(null)
@@ -74,7 +76,7 @@ export function Banner() {
 
   return (
     <>
-      <div ref={bannerRef} id="adh-widescreen" className={`${styles['adh-widescreen']} ${styles['adhow-bg']}`}>
+      <div ref={bannerRef} id="adh-widescreen" className={`${styles['adh-widescreen']} ${isLocalHost && styles['adhow-bg']}`}>
         <Images
           lowImagesIds={lowImages}
           topImagesIds={topImages}
