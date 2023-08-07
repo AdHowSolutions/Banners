@@ -17,3 +17,30 @@
   background-color: #d4603c;
   z-index: 9999;
 }
+
+.adh-b-close{
+  position: fixed;
+  bottom: 0;
+  right: -35px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0px 20px 0px 0px;
+}
+
+.adh-b-close button {
+  font-family: sans-serif;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  position: relative;
+}
+
+.adh-b-close button span {
+  position: absolute;
+  top: 57%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}

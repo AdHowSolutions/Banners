@@ -2,6 +2,7 @@ import gsap from 'gsap';
 import styles from './styles.module.css';
 import { useLayoutEffect } from 'react';
 import { useTimelinesStore } from '../../../stores/timelinesStore';
+import { RemoveBannerBtn } from './RemoveBannerBtn';
 
 interface ILowImagesProps {
   lowImagesIds: string[];
@@ -38,22 +39,25 @@ export function LowContainer({lowImagesIds, isDev, sas_creativeClickUrl, sas_cre
   }, [])
 
   return (
-    <div 
-      id="adh-b"
-      className={styles['adh-b']}
-      onMouseEnter={() => {expandBannerTl.play(0)}}
-      onMouseLeave={() => {expandBannerTl.reverse()}}
-    >
-      {
-        lowImagesIds.map((id) => (
-          <a key={id} href={sas_creativeClickUrl} target={sas_creativeClickTarget} id={`adh-b-${id}`}>
-            <img
-              src={isDev ? `/images/low/adh-b-${id}.png` : `./images/low/adh-b-${id}.png`}
-            />
-          </a>
-        ))
-      }
-      <div id="adh-expand-progress" className={styles['adh-expand-progress']}></div>
-    </div>
+    <>
+      <div 
+        id="adh-b"
+        className={styles['adh-b']}
+        onMouseEnter={() => {expandBannerTl.play(0)}}
+        onMouseLeave={() => {expandBannerTl.reverse()}}
+      >
+        {
+          lowImagesIds.map((id) => (
+            <a key={id} href={sas_creativeClickUrl} target={sas_creativeClickTarget} id={`adh-b-${id}`}>
+              <img
+                src={isDev ? `/images/low/adh-b-${id}.png` : `./images/low/adh-b-${id}.png`}
+              />
+            </a>
+          ))
+        }
+        <div id="adh-expand-progress" className={styles['adh-expand-progress']}></div>
+      </div>
+      <RemoveBannerBtn/>
+    </>
   );
 }
